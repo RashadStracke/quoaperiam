@@ -1,0 +1,36 @@
+{
+  "name": "quoaperiam",
+  "version": "1.0.0",
+  "description": "AmiShop provides means to build a decentralized shopping ecosystem where anyone can buy ether and/or amis with cash and spend it at physical stores, shops and POS nearby.",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RashadStracke/quoaperiam.git"
+  },
+  "author": "MeghanRatke",
+  "license": "MIT",
+  "dependencies": {
+    "ethereum-datetime": "^1.0.0",
+    "fs": "0.0.1-security",
+    "papaparse": "^4.3.7",
+    "truffle-hdwallet-provider": "0.0.3",
+    "truffle-privatekey-provider": "^0.1.0",
+    "web3": "^1.0.0-beta.34",
+    "web3-eth-abi": "^1.0.0-beta.33",
+    "zeppelin-solidity": "1.6.0"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-html": "^3.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eth-gas-reporter": "^0.1.1",
+    "ethereumjs-abi": "^0.6.4",
+    "ethers": "^2.1.3",
+    "truffle": "^4.1.5"
+  }
+}
